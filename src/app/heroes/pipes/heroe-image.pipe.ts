@@ -9,7 +9,7 @@ export class HeroeImagePipe implements PipeTransform {
 
   transform(heroe: Heroe): string {
 
-    console.log('se procesó la imagen');
+    // console.log('se procesó la imagen');
 
     if (heroe.alt_img) return heroe.alt_img;
 
